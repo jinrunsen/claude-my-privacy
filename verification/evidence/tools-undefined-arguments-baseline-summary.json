@@ -1,0 +1,121 @@
+{
+  "completed": true,
+  "networkDenied": true,
+  "syntheticFixturesOnly": true,
+  "processSucceeded": true,
+  "captures": [
+    {
+      "step": 0,
+      "resultExists": true,
+      "isError": true,
+      "withheld": true,
+      "listing": false,
+      "match": false,
+      "hasNameAlias": false,
+      "hasCompanyAlias": false,
+      "notFound": false,
+      "missingPathCode": false,
+      "rawVisible": false
+    },
+    {
+      "step": 1,
+      "resultExists": true,
+      "isError": false,
+      "withheld": false,
+      "listing": true,
+      "match": true,
+      "hasNameAlias": false,
+      "hasCompanyAlias": true,
+      "notFound": false,
+      "missingPathCode": false,
+      "rawVisible": false
+    },
+    {
+      "step": 2,
+      "resultExists": true,
+      "isError": true,
+      "withheld": true,
+      "listing": false,
+      "match": false,
+      "hasNameAlias": false,
+      "hasCompanyAlias": false,
+      "notFound": false,
+      "missingPathCode": false,
+      "rawVisible": false
+    },
+    {
+      "step": 3,
+      "resultExists": true,
+      "isError": true,
+      "withheld": true,
+      "listing": false,
+      "match": false,
+      "hasNameAlias": false,
+      "hasCompanyAlias": false,
+      "notFound": false,
+      "missingPathCode": false,
+      "rawVisible": false
+    }
+  ],
+  "diagnostics": [
+    {
+      "tool": "Bash",
+      "phase": "arguments",
+      "code": "INVALID_JSON",
+      "undefinedKeys": [
+        "description"
+      ]
+    },
+    {
+      "tool": "Grep",
+      "phase": "result-shape",
+      "keys": [
+        "ref",
+        "result",
+        "text",
+        "isReadOnly"
+      ],
+      "resultType": "object",
+      "undefinedKeys": []
+    },
+    {
+      "tool": "Bash",
+      "phase": "arguments",
+      "code": "INVALID_JSON",
+      "undefinedKeys": [
+        "description"
+      ]
+    },
+    {
+      "tool": "Read",
+      "phase": "prepare",
+      "code": "PATH_NOT_FOUND"
+    }
+  ],
+  "mockCompleted": true,
+  "moduleLoadError": false,
+  "outputFlags": {
+    "Local privacy guard stopped": false,
+    "Privacy filtering requires": false,
+    "untrusted": false,
+    "authentication": false,
+    "plugin": false,
+    "error": false,
+    "audit": true,
+    "cannot": false,
+    "permission": false,
+    "invalid": false,
+    "static": false,
+    "typescript": false,
+    "approval": false,
+    "native": false,
+    "account": false
+  },
+  "outputLength": 28,
+  "baselineOldUndefinedHandling": true,
+  "checks": {
+    "bashRejectedWithInvalidJson": true,
+    "bashDenied": true
+  },
+  "passed": true
+}

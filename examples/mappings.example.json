@@ -1,0 +1,12 @@
+{
+  "mappings": [
+    { "from": "陈星河", "to": "陈瑞恩" },
+    {
+      "from": "chenxinghe",
+      "to": "ryanchen",
+      "casePairs": [{ "from": "ChenXingHe", "to": "RyanChen" }]
+    },
+    { "from": "云杉智科", "to": "海岚数科" },
+    { "from": "cedarbyte", "to": "harborwave" }
+  ]
+}

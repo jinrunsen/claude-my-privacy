@@ -1,0 +1,65 @@
+{
+  "captured": [
+    {
+      "index": 0,
+      "array": true,
+      "rawVisible": false,
+      "hasCompanyAlias": true,
+      "hasEmailToken": true,
+      "hasPhoneToken": true
+    },
+    {
+      "index": 1,
+      "array": true,
+      "rawVisible": false,
+      "hasCompanyAlias": true,
+      "hasEmailToken": true,
+      "hasPhoneToken": true
+    },
+    {
+      "index": 2,
+      "array": true,
+      "rawVisible": false,
+      "hasCompanyAlias": true,
+      "hasEmailToken": true,
+      "hasPhoneToken": true
+    },
+    {
+      "index": 3,
+      "array": true,
+      "rawVisible": false,
+      "hasCompanyAlias": true,
+      "hasEmailToken": true,
+      "hasPhoneToken": true
+    },
+    {
+      "index": 4,
+      "array": true,
+      "rawVisible": false,
+      "hasCompanyAlias": true,
+      "hasEmailToken": true,
+      "hasPhoneToken": true
+    }
+  ],
+  "sawRead": true,
+  "sawWrite": true,
+  "sawEdit": true,
+  "completed": true,
+  "localOutput": {
+    "restoredCompany": true,
+    "restoredEmail": true,
+    "restoredPhone": true,
+    "editSucceeded": true,
+    "tokensAbsent": true
+  },
+  "transcript": {
+    "messageRows": 10,
+    "rawInMessageContent": false,
+    "aliasInMessageContent": true,
+    "emailTokenInMessageContent": true,
+    "phoneTokenInMessageContent": true,
+    "rawInMessageMetadata": false,
+    "rawInQueue": true,
+    "messageMetadataContainsAbsoluteCwd": true
+  }
+}

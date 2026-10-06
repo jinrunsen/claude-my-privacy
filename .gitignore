@@ -1,0 +1,31 @@
+# Local/editor and dependency caches
+.DS_Store
+node_modules/
+__pycache__/
+*.py[cod]
+.cache/
+
+# Personal agent skills and notes stay local
+/.agents/
+/.agent/
+
+# Claude-generated type declarations and local session/settings data
+**/.claude-plugin/types/
+.claude/
+
+# Temporary output and local environment files
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+!.env.example
+
+# Private mappings must stay outside the repository; ignore accidental copies.
+mappings.json
+mappings.local.json
+config.local.*
+*.private.*
+
+# Current run reports; archived boolean-only baselines can be versioned
+verification/evidence/*latest-summary.json

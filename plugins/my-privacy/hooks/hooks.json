@@ -1,0 +1,4 @@
+{
+  "description": "MyPrivacy event handlers; no network or model calls",
+  "modules": ["./register.js"]
+}

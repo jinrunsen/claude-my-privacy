@@ -1,0 +1,9 @@
+{
+  "name": "my-privacy",
+  "version": "0.5.0",
+  "description": "Best-effort local substitution of specified personal and company terms, with restoration for tool execution and assistant reply display.",
+  "author": {
+    "name": "Local user"
+  },
+  "license": "UNLICENSED"
+}

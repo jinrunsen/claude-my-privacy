@@ -1,0 +1,17 @@
+{
+  "name": "my-privacy-marketplace",
+  "owner": {
+    "name": "Local user"
+  },
+  "metadata": {
+    "description": "Locally configured name and company substitution"
+  },
+  "plugins": [
+    {
+      "name": "my-privacy",
+      "source": "./plugins/my-privacy",
+      "description": "Targeted local name and company substitution without default blocking",
+      "version": "0.5.0"
+    }
+  ]
+}
